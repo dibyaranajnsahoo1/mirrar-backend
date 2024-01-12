@@ -62,3 +62,23 @@ Search Products:
 `Method: GET
 URL: /api/products?q={searchQuery}`
 Replace {searchQuery} with the desired search term.
+
+
+Create Product:
+`curl -X POST -H "Content-Type: application/json" -d '{"name": "Sample Product", "description": "Test description", "price": 25}' http://localhost:3000/api/products`
+
+Get All Products:
+`curl http://localhost:3000/api/products`
+
+Update Product:
+`curl -X PUT -H "Content-Type: application/json" -d '{"price": 30}' http://localhost:3000/api/products/{productId}`
+
+Delete Product:
+`curl -X DELETE http://localhost:3000/api/products/{productId}`
+
+Search Products:
+`curl http://localhost:3000/api/products?q=Sample`
+
+
+
+
