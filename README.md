@@ -41,23 +41,22 @@ API Endpoints:
 Create Product:
 
 `Method: POST
-URL: /api/products
-Payload: JSON object containing product details.
-Get All Products:`
+URL: /api/products`Payload: JSON object containing product details.
+Get All Products:
 
 `Method: GET
-URL: /api/products
-Update Product:`
+URL: /api/products`
+Update Product:
 
 `Method: PUT
-URL: /api/products/:productId
+URL: /api/products/:productId`
 Payload: JSON object containing updated product details.
-Delete Product:`
+Delete Product:
 
 `Method: DELETE
-URL: /api/products/:productId
-Search Products:`
+URL: /api/products/:productId`
+Search Products:
 
 `Method: GET
-URL: /api/products?q={searchQuery}
-Replace {searchQuery} with the desired search term.`
+URL: /api/products?q={searchQuery}`
+Replace {searchQuery} with the desired search term.
